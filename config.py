@@ -1,5 +1,5 @@
 from os import path
 
 config = {
-    'uploads_dir': path.join(path.curdir, 'uploads')
+    'uploads_dir': path.join(path.abspath(path.curdir), 'uploads')
 }
